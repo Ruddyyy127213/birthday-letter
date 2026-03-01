@@ -1,6 +1,6 @@
 function checkPassword(){
   var password = document.getElementById("passwordInput").value;
-  if(password === "19524"){
+  if(password === "19523"){
     document.getElementById("passwordBox").style.display="none";
     document.getElementById("mainContent").style.display="block";
     document.getElementById("bgMusic").play();
