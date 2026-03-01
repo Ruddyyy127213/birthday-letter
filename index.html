@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For My Bae ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hearts-bg"></div>
+
+<div id="passwordBox">
+  <h2>Enter Our Secret 💗</h2>
+  <input type="password" id="passwordInput" placeholder="Password">
+  <button onclick="checkPassword()">Open</button>
+</div>
+
+<div id="mainContent" style="display:none;">
+
+<audio id="bgMusic" loop>
+  <source src="Dan_Shay,_Justin_Bieber_10,000_Hours_Official_Music_Video.mp3" type="audio/mpeg">
+</audio>
+
+<h3 id="countdown"></h3>
+
+<div class="envelope" id="envelope" onclick="openLetter()">💌 Click Me Bae</div>
+
+<div class="letter-glass" id="letter">
+  <h2>Happy Birthday Bae 🤍</h2>
+  <p id="typing"></p>
+</div>
+
+<div class="photoGallery">
+  <img src="photo_2026-03-01 14.16.54.jpeg" class="photo left">
+  <img src="photo_2026-03-01 14.16.59.jpeg" class="photo right">
+  <img src="photo_2026-03-01 14.17.00.jpeg" class="photo left">
+  <img src="photo_2026-03-01 14.17.02.jpeg" class="photo right">
+  <img src="photo_2026-03-01 14.17.05.jpeg" class="photo left">
+  <img src="photo_2026-03-01 14.17.07.jpeg" class="photo right">
+</div>
+
+<canvas id="fireworks"></canvas>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
